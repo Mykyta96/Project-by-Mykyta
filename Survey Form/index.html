@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Survey Form</title>
+</head>
+<body>
+	
+		<header id="header">
+			<h1 id="title">Why you whant to buy a car?</h1>
+
+			<p id="description">Thank you for help in this questionary!</p>
+		</header>
+
+		<form id="survey-form">
+
+			<div class="form-group">
+			<label id="name-label" for="name"><p class="name-input">Name</p>
+					<p><input type="text"
+					 placeholder="Enter your name"
+					  id="name"
+					  name="name"
+					   class="input-info" required></p>
+					</label>
+					</div>
+				
+
+			<div class="form-group">
+				<label id="email-label" for="email"><p class="name-input">Email</p>
+					<p><input type="email" placeholder="Enter your email" id="email" class="input-info" name="name" required>	</p>
+				</label>
+					</div>
+
+			<div class="form-group">
+				<label for="number" id="number-label"><p class="name-input">Age <span class="clue">(optional)</span></p>
+					<p><input type="number" placeholder="Age" min="10" max="99" class="input-info"
+						name="age"></p>
+				</label>
+			</div>
+
+			<div class="form-group">
+				<label for="section" id="section-caruse">
+					<p class="name-input">For what you use your car?</p>
+					<select class="form-control" id="dropdown">
+						<option disabled selected value>Select an option</option>
+						<option value="Work">Work</option>
+						<option value="freetime">Free time</option>
+						<option value="vacantion">Vacantion</option>
+						<option value="family">Family</option>
+						<option value="bussines">Bussines</option>
+					</select>
+				</label>
+			</div>
+
+			<div class="form-group">
+				<label for="section" id="section-carlike">
+					<p class="name-input">Your favorite riding style?</p>
+					<select class="form-control" id="dropdown">
+						<option disabled selected value>Select an option</option>
+						<option value="sport">Sport</option>
+						<option value="freetime">Eco</option>
+						<option value="vacantion">Calm</option>
+						<option value="family">Usual</option>
+						<option value="bussines">I am professional</option>
+					</select>
+				</label>
+			</div>
+
+			<div class="form-group">
+					<p class="name-input">You sure to buy car?</p>
+					<label>
+					<p><input type="radio" class="input-radio" value="difinitly" name="user-recommend" checked>Difinitly</p></label>
+					<label>
+					<p><input type="radio" class="input-radio" value="maybe" name="user-recommend">Maybe</p></label>
+					<label>
+					<p><input type="radio" class="input-radio" value="notsure" name="user-recommend">Not sure</p></label>
+			</div>
+
+			<div class="form-group">
+				<label for="section" id="select-prefcar">
+					<p class="name-input">What is your favorite car?</p>
+					<select class="form-control" id="dropdown">
+						<option disabled selected value>Select an option</option>
+						<option value="bmw">BMW</option>
+						<option value="fiat">Fiat</option>
+						<option value="ford">Ford</option>
+						<option value="toyota">Toyota</option>
+						<option value="mercedes-Bens">Mercedes-Bens</option>
+						<option value="alfa-romeo">Alfa-Romeo</option>
+						<option value="Volswagen">Volswagen</option>
+						<option value="dm Auto">DM Auto</option>
+						<option value="opel">Opel</option>
+						<option value="pegheot">Pegheot</option>
+					</select>
+				</label>
+
+			</div>
+
+			<div class="form-group">
+				<p class="name-input">What do yuo want to have in your new car?</p>
+
+				<label>
+					<p><input type="checkbox" value="autopilot" name="prefer" class="input-check" checked>Autopilot</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="panoramic roof" name="prefer" class="input-check">Panoramic roof</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="airconditioner" name="prefer" class="input-check">Air conditioner</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="xenonheadlights" name="prefer" class="input-check">Xenon Headlights</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="sparewheel" name="prefer" class="input-check">Spare Wheel</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="babychair" name="prefer" class="input-check">Baby chair</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="sportbodykit" name="prefer" class="input-check">Sport Body Kit</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="navigator" name="prefer" class="input-check">Navigator</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="climatecontrol" name="prefer" class="input-check">Climate control</p>
+				</label>
+				<label>
+					<p><input type="checkbox" value="cruisecontrol" name="prefer" class="input-check">Cruise Control</p>
+				</label>
+
+			</div>
+
+			<div class="form-group">
+				<p class="name-input">Any comments or suggestions?</p>
+				<textarea rows="5" cols="62" placeholder="Enter your comment hear..." class="textarea"></textarea>
+			</div>
+
+			<div class="form-group">
+				<button class="button" id="submit">Submit</button>
+			</div>
+
+		</form>
+
+		
+
+
+</body>
+</html>

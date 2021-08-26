@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+
+	background-image: linear-gradient(115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)),
+		url(../img/taxi-381233_1280.jpg);
+
+		background-attachment:fixed;
+  		font-weight: 400;
+  		line-height: 1.4;
+  		color: white;
+  		margin: 0;
+		font-family: 'Poppins', sans-serif;
+}
+
+#header{
+	text-align:center;
+	font-weight: 400;
+	line-height: 1.4;
+}
+#title{
+	padding-top:40px;
+}
+#description{
+	padding-bottom:40px;
+}
+
+#survey-form{
+	width:55vw;
+	padding-bottom:25px;
+	background:rgba(0,0,0,0.5);
+	border-radius:5px;
+	margin:auto;
+}
+.form-group{
+
+	padding-top:25px;
+	padding-left:10px;
+
+	.input-info{
+	width:47vw;
+	height:5vh;
+	border-radius:5px;
+	font-size:15px;
+	padding:20px;
+	border:none;
+	}
+
+	.name-input{
+		margin-bottom:10px;
+		font-size:18px;
+	}
+
+	.clue{
+	font-size:13px;
+	margin-bottom:5px;
+	}
+
+	.form-control{
+	width:47vw;
+	height:6vh;
+	border-radius:5px;
+	font-size:15px;
+	padding:20px;
+	border:none;
+	}
+
+	.input-radio{
+	margin-right:10px;
+	margin-bottom:15px;
+	}
+
+	.input-check{
+	margin-right:10px;
+	margin-bottom:15px;
+	}
+
+}
+
+.textarea{
+	width:47vw;
+	height:20vh;
+	border:none;
+	padding-top:10px;
+	padding-left:10px;
+	font-size:15px;
+}
+.button{
+	width:47vw;
+	height:6vh;
+	background:#32cd32;
+	border:none;
+	margin-bottom:15px;
+	font-size:17px;
+	color:white;
+	cursor:pointer;
+}
+
+
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+  }
+
+  @media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  }
+
+  @media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+
+
+
+
+
