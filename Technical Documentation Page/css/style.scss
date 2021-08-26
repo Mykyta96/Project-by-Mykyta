@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #4d4e53;
+	line-height: 1.5;
+}
+
+
+#two-block{
+	display:float;
+	position:fixed;
+}
+
+#navbar{
+	width:24vw; 
+	height: 100vh;
+	float:left;
+	overflow:scroll;
+	word-spacing:2px;
+
+	header{
+	text-align:center;
+	padding:20px;
+	font-size:25px;
+	font-weight:normal;
+	}
+
+	p{
+	padding-left:10px;
+	font-size:20px;
+	padding-top:30px;
+
+	}
+
+	.nav-link{
+	text-decoration:none;
+	color:#4d4e53;
+	font-size:16px;
+	padding:20px 30px;
+	}
+	.nav-link:hover{
+	color:red;
+	}
+	
+
+	li{
+	border-top:1px solid black;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	}
+
+}
+#block-right{
+	width:76vw;
+	height:100vh;
+	float:right;
+	padding:30px;
+	border-left:3px solid gray;
+	overflow:scroll;
+
+	p{
+	padding:15px;
+	font-size:15px;
+	}
+	header{
+	padding:5px;
+	font-size:30px;
+	}
+	ul{
+	width:68vw;
+	padding-left:80px;
+	}
+	li{
+	padding-bottom:20px;
+	}
+
+	.code-paragraf{
+	display:block;
+	color:gray;
+	background:rgba(220,220,220, 0.4);
+	padding:25px;
+	margin-left:50px;
+	font-size:13px;
+	border-radius:5px;
+	}
+
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar li {
+    font-size:10px;
+  }
+  }
+
+  @media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+  }
+
